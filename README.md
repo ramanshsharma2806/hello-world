@@ -18,10 +18,16 @@ The Flask API's were then hosted on a Heroku container and made live here - [hel
 
 When the website is opened, the ```route('/')``` response can be seen.
 
-Then an [```example.py```](https://github.com/ramanshsharma2806/hello-world/blob/main/example.py) was made where the API's would be called using a Python class system with as much complexity injected as can be done in an hour.
+Then an [```example.py```](https://github.com/ramanshsharma2806/hello-world/blob/main/example.py) was made where the API's would be called using a Python class system with as much complexity (decorators and wrapper functions to simply print an output) injected as can be done in an hour (or 3).
 
 
 ```python
->> python example.py
-
+>> from example import Coder
+>> not_you = Coder()
+>> not_you.get_hello_world()
+Hello world
 ```
+
+## Conclusion
+
+Let this example serve as a living example to not use overkill on small tasks, please. Live long and prosper.
