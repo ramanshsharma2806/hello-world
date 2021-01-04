@@ -4,7 +4,7 @@ import json, os
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home():
     """
     if you're coming to not where you want to be, you probably don't know how to send an API request
